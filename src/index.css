@@ -5,6 +5,14 @@
   
   input {
     font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 50px;
+  }
+
+  input::placeholder{
+    margin-left: 1%;
   }
   
   button {

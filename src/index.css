@@ -128,4 +128,48 @@
   span {
     margin-left: 16px;
   }
+  /* Login and signup Button css */
   
+  #SignupBTN{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: Rockwell;
+    font-weight: 200;
+    float: right;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  #SignupBTN :hover{
+    display: flex;
+    border: 2px solid #00D1FF;
+    cursor: pointer;
+    color: #00D1FF;
+    background: #000;
+  }
+  
+  #LoginBTN{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    font-family: Rockwell;
+    font-weight: 200;
+    float: right;
+    font-style: italic;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+
+  #LoginBTN :hover{
+    display: flex;
+    border: 2px solid #00D1FF;
+    cursor: pointer;
+    color: #00D1FF;
+    background: #000;
+  }
